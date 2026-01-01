@@ -22,5 +22,13 @@
 	<fonts>
 		<!-- Add <bin> , <tiny_ttf>, <freetype> tags here -->
 		<bin name="font_medium" as_file="false" src_path="fonts/Montserrat_Medium.ttf" size="20" bpp="4" />
+		<bin name="montserrat_14" as_file="false" src_path="fonts/Montserrat_Medium.ttf" size="14" bpp="4" />
+		<bin name="montserrat_18" as_file="false" src_path="fonts/Montserrat_Medium.ttf" size="18" bpp="4" />
+		<bin name="montserrat_20" as_file="false" src_path="fonts/Montserrat_Medium.ttf" size="20" bpp="4" />
+		<bin name="montserrat_22" as_file="false" src_path="fonts/Montserrat_Medium.ttf" size="22" bpp="4" />
+		<bin name="montserrat_24" as_file="false" src_path="fonts/Montserrat_Medium.ttf" size="24" bpp="4" />
+		<bin name="montserrat_26" as_file="false" src_path="fonts/Montserrat_Medium.ttf" size="26" bpp="4" />
+		<bin name="montserrat_28" as_file="false" src_path="fonts/Montserrat_Medium.ttf" size="28" bpp="4" />
+		<bin name="montserrat_30" as_file="false" src_path="fonts/Montserrat_Medium.ttf" size="30" bpp="4" />
 	</fonts>
 </globals>

@@ -5,10 +5,10 @@
 
 	<view>
 		<style name="style_main" />
-		<lv_label text="Secure Lock Box" align="top_mid" y="10" />
+		<lv_label text="Secure Lock Box" style_text_font="montserrat_30" align="top_mid" y="10" />
 
 		<lv_button align="center" style_bg_color="0xe19419">
-			<lv_label text="PIN Number" style_text_font="font_medium" />
+			<lv_label text="PIN Number" style_text_font="montserrat_20" />
 		</lv_button>
 	</view>
 </screen>

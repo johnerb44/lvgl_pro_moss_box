@@ -1,7 +1,18 @@
 list(
   APPEND
   PROJECT_SOURCES
-  ${CMAKE_CURRENT_LIST_DIR}/fonts/font_medium_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/screens/screen_about_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/screens/screen_hello_world_gen.c
+  ${CMAKE_CURRENT_LIST_DIR}/screens/screen_main_gen.c
+  ${CMAKE_CURRENT_LIST_DIR}/screens/screen_start_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/ui_hello_world_gen.c
-  ${CMAKE_CURRENT_LIST_DIR}/ui_hello_world.c)
+  ${CMAKE_CURRENT_LIST_DIR}/ui_hello_world.c
+  ${CMAKE_CURRENT_LIST_DIR}/fonts/font_medium_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/fonts/montserrat_14_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/fonts/montserrat_18_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/fonts/montserrat_20_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/fonts/montserrat_22_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/fonts/montserrat_24_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/fonts/montserrat_26_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/fonts/montserrat_28_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/fonts/montserrat_30_data.c)
