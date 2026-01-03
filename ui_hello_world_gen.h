@@ -99,6 +99,7 @@ void ui_hello_world_init_gen(const char * asset_path);
 
 /*Include all the widget and components of this library*/
 #include "screens/screen_about_gen.h"
+#include "screens/screen_biometric_select_gen.h"
 #include "screens/screen_hello_world_gen.h"
 #include "screens/screen_main_gen.h"
 #include "screens/screen_start_gen.h"
