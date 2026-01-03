@@ -1,0 +1,42 @@
+<screen>
+	<styles>
+		<style name="style_main" bg_color="0x041d3a" text_color="0xfff" />
+	</styles>
+
+	<view style_text_color="0xfff">
+		<style name="style_main" />
+
+		<lv_label name="face_scan_title" text="Face Scan" style_text_font="montserrat_30" align="top_mid" y="10" />
+		<lv_label
+			name="fp_instr_1"
+			text="1.   Raise Face Recognition Module"
+			style_text_font="montserrat_26"
+			align="top_left"
+			x="50"
+			y="100"
+		/>
+		<lv_label
+			name="fp_instr_2"
+			text="2.   Verify Screen Displays Your Face"
+			style_text_font="montserrat_26"
+			align="top_left"
+			x="50"
+			y="150"
+		/>
+		<lv_label
+			name="fp_instr_3"
+			text="3.   Place Face in Scan Area"
+			style_text_font="montserrat_26"
+			align="top_left"
+			x="50"
+			y="200"
+		/>
+		<lv_button name="start_button" align="center" style_bg_color="0xe19419" y="200">
+			<lv_label text="Begin Scan" style_text_color="0x000" style_text_font="montserrat_26" />
+
+			<!-- Since the About screen is not permanent <screen_create_event>
+			     shall be used to create it dynamically.  -->
+			<screen_create_event screen="screen_biometric_select" anim_type="move_top" duration="500" />
+		</lv_button>
+	</view>
+</screen>

@@ -63,12 +63,12 @@ lv_obj_t * screen_biometric_select_create(void)
     lv_obj_set_style_text_color(lv_label_1, lv_color_hex3(0x000), 0);
     lv_obj_set_style_text_font(lv_label_1, montserrat_26, 0);
     
-    lv_obj_add_screen_create_event(fingerprint_button, LV_EVENT_CLICKED, screen_about_create, LV_SCREEN_LOAD_ANIM_MOVE_TOP, 500, 0);
+    lv_obj_add_screen_create_event(fingerprint_button, LV_EVENT_CLICKED, screen_fingerprint_scan_create, LV_SCREEN_LOAD_ANIM_MOVE_TOP, 500, 0);
     
     lv_obj_t * face_button = lv_button_create(lv_obj_0);
     lv_obj_set_name(face_button, "face_button");
     lv_obj_set_align(face_button, LV_ALIGN_CENTER);
-    lv_obj_set_width(face_button, 250);
+    lv_obj_set_width(face_button, 260);
     lv_obj_set_style_bg_color(face_button, lv_color_hex(0x19abe0), 0);
     lv_obj_t * lv_label_2 = lv_label_create(face_button);
     lv_label_set_text(lv_label_2, "Face Scan");
@@ -76,7 +76,7 @@ lv_obj_t * screen_biometric_select_create(void)
     lv_obj_set_style_text_color(lv_label_2, lv_color_hex3(0x000), 0);
     lv_obj_set_style_text_font(lv_label_2, montserrat_26, 0);
     
-    lv_obj_add_screen_create_event(face_button, LV_EVENT_CLICKED, screen_about_create, LV_SCREEN_LOAD_ANIM_MOVE_TOP, 500, 0);
+    lv_obj_add_screen_create_event(face_button, LV_EVENT_CLICKED, screen_face_scan_create, LV_SCREEN_LOAD_ANIM_MOVE_TOP, 500, 0);
 
     LV_TRACE_OBJ_CREATE("finished");
 
