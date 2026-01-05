@@ -5,12 +5,12 @@
 	<view style_bg_color="0x041d3a" style_text_color="0xfff">
 		<lv_label text="Select a biometric method:" align="top_mid" y="10" style_text_font="montserrat_30" />
 
-		<lv_button name="fingerprint_button" align="center" y="-100" style_bg_color="0xe99309">
+		<lv_button name="fingerprint_button" align="center" y="-100" style_bg_color="0x4caf50">
 			<lv_label text="Fingerprint Scan" style_text_color="0x000" style_text_font="montserrat_26" />
 			<screen_create_event screen="screen_fingerprint_scan" anim_type="move_top" duration="500" />
 		</lv_button>
 
-		<lv_button name="face_button" align="center" width="260" style_bg_color="0x19abe0">
+		<lv_button name="face_button" align="center" width="260" style_bg_color="0xff9800">
 			<lv_label text="Face Scan" align="center" style_text_color="0x000" style_text_font="montserrat_26" />
 			<screen_create_event screen="screen_face_scan" anim_type="move_top" duration="500" />
 		</lv_button>

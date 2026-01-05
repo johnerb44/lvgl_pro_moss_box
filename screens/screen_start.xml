@@ -7,7 +7,7 @@
 		<style name="style_main" />
 		<lv_label name="welcome_name" text="Secure Lock Box" style_text_font="montserrat_30" align="top_mid" y="10" />
 
-		<lv_button name="start_button" align="center" style_bg_color="0xe19419">
+		<lv_button name="start_button" align="center" style_bg_color="0xff9800">
 			<lv_label text="Begin Authentication" style_text_color="0x000" style_text_font="montserrat_26" />
 
 			<!-- Since the About screen is not permanent <screen_create_event>
