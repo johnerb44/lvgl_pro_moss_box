@@ -100,11 +100,14 @@ void ui_hello_world_init_gen(const char * asset_path);
 /*Include all the widget and components of this library*/
 #include "screens/screen_about_gen.h"
 #include "screens/screen_biometric_select_gen.h"
+#include "screens/screen_btn_matrix_gen.h"
 #include "screens/screen_face_scan_gen.h"
 #include "screens/screen_fingerprint_scan_gen.h"
+#include "screens/screen_get_pin_gen.h"
 #include "screens/screen_hello_world_gen.h"
 #include "screens/screen_main_gen.h"
 #include "screens/screen_start_gen.h"
+#include "screens/screen_success_gen.h"
 
 #ifdef __cplusplus
 } /*extern "C"*/

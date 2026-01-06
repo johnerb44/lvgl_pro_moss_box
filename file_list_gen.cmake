@@ -3,11 +3,14 @@ list(
   PROJECT_SOURCES
   ${CMAKE_CURRENT_LIST_DIR}/screens/screen_about_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/screens/screen_biometric_select_gen.c
+  ${CMAKE_CURRENT_LIST_DIR}/screens/screen_btn_matrix_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/screens/screen_face_scan_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/screens/screen_fingerprint_scan_gen.c
+  ${CMAKE_CURRENT_LIST_DIR}/screens/screen_get_pin_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/screens/screen_hello_world_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/screens/screen_main_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/screens/screen_start_gen.c
+  ${CMAKE_CURRENT_LIST_DIR}/screens/screen_success_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/ui_hello_world_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/ui_hello_world.c
   ${CMAKE_CURRENT_LIST_DIR}/fonts/font_medium_data.c
