@@ -143,6 +143,7 @@ void ui_hello_world_init_gen(const char * asset_path)
     /* Register subjects */
 
     /* Register callbacks */
+    lv_xml_register_event_cb(NULL, "my_callback_1", my_callback_1);
 #endif
 
     /* Register all the global assets so that they won't be created again when globals.xml is parsed.
@@ -165,6 +166,13 @@ void ui_hello_world_init_gen(const char * asset_path)
 }
 
 /* Callbacks */
+#if defined(LV_EDITOR_PREVIEW)
+void __attribute__((weak)) my_callback_1(lv_event_t * e)
+{
+    LV_UNUSED(e);
+    LV_LOG("my_callback_1 was called\n");
+}
+#endif
 
 /**********************
  *   STATIC FUNCTIONS

@@ -4,6 +4,7 @@ list(
   ${CMAKE_CURRENT_LIST_DIR}/screens/screen_about_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/screens/screen_biometric_select_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/screens/screen_btn_matrix_gen.c
+  ${CMAKE_CURRENT_LIST_DIR}/screens/screen_btn_test_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/screens/screen_face_scan_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/screens/screen_fingerprint_scan_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/screens/screen_get_pin_gen.c

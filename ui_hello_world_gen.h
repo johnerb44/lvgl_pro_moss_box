@@ -83,6 +83,8 @@ extern lv_font_t * montserrat_30;
  * Event Callbacks
  *----------------*/
 
+void my_callback_1(lv_event_t * e);
+
 /**
  * Initialize the component library
  */
@@ -101,6 +103,7 @@ void ui_hello_world_init_gen(const char * asset_path);
 #include "screens/screen_about_gen.h"
 #include "screens/screen_biometric_select_gen.h"
 #include "screens/screen_btn_matrix_gen.h"
+#include "screens/screen_btn_test_gen.h"
 #include "screens/screen_face_scan_gen.h"
 #include "screens/screen_fingerprint_scan_gen.h"
 #include "screens/screen_get_pin_gen.h"

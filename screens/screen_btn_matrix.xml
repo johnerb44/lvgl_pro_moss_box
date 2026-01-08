@@ -5,48 +5,38 @@
 
 	<view style_text_color="0xfff">
 		<style name="style_main" />
-		<lv_label name="get_pin_title" text="ENTER PIN" style_text_font="montserrat_30" align="top_mid" y="10" />
+		<lv_label name="get_pin_title" text="Enter PIN" style_text_font="montserrat_30" align="top_mid" y="10" />
 		<lv_label
 			name="pin_display"
 			align="center"
 			style_width="200"
 			style_height="50"
-			y="-200"
+			y="-140"
 			style_outline_width="5"
 			style_outline_color="0xfff"
-			style_text_color="0xfff"
+			style_text_color="0x111"
 			style_text_align="center"
-			style_bg_color="0xfa0000"
+			style_bg_color="0xfff"
 			style_bg_opa="255"
 			style_pad_top="12"
 			style_text_opa="255"
-			style_text_font="montserrat_26"
-			text="test"
+			style_text_font="montserrat_30"
+			text="----"
 		/>
 
 		<lv_buttonmatrix
-			name="bm_row_1"
+			name="button_matrix_pin"
 			align="left_mid"
 			style_text_font="montserrat_26"
-			height="80"
-			width="260"
+			height="240"
+			width="530"
 			style_text_color="0x1a1919"
-			x="275"
-			map="'1' '2' '3' '4' '5'"
-		/>
-		<lv_buttonmatrix
-			name="bm_row_2"
-			align="left_mid"
-			style_text_font="montserrat_26"
-			height="80"
-			width="260"
-			style_text_color="0x1a1919"
-			y="85"
-			x="275"
-			map="'6' '7' '8' '9' '0'"
+			x="140"
+			y="20"
+			map="'1' '2' '3' '\n' '4' '5' '6' '\n' '7' '8' '9' '\n' 'Clear' '0' 'Backspace'"
 		/>
 
-		<lv_button name="continue_button" align="bottom_mid" y="-20" style_bg_color="0xe19419">
+		<lv_button name="submit_button" align="bottom_mid" y="-30" style_bg_color="0xe19419">
 			<lv_label text="SUBMIT" style_text_color="0x000" style_text_font="montserrat_26" />
 
 			<!-- Since the About screen is not permanent <screen_create_event>
