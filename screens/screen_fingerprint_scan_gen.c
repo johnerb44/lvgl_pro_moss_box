@@ -92,7 +92,7 @@ lv_obj_t * screen_fingerprint_scan_create(void)
     lv_obj_set_style_text_color(lv_label_0, lv_color_hex3(0x000), 0);
     lv_obj_set_style_text_font(lv_label_0, montserrat_26, 0);
     
-    lv_obj_add_screen_create_event(start_button, LV_EVENT_CLICKED, screen_biometric_select_create, LV_SCREEN_LOAD_ANIM_MOVE_TOP, 500, 0);
+    lv_obj_add_screen_create_event(start_button, LV_EVENT_CLICKED, screen_btn_matrix_create, LV_SCREEN_LOAD_ANIM_MOVE_TOP, 500, 0);
 
     LV_TRACE_OBJ_CREATE("finished");
 

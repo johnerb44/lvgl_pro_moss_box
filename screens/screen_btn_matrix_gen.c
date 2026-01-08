@@ -81,6 +81,7 @@ lv_obj_t * screen_btn_matrix_create(void)
     lv_obj_set_style_text_font(button_matrix_pin, montserrat_26, 0);
     lv_obj_set_height(button_matrix_pin, 240);
     lv_obj_set_width(button_matrix_pin, 530);
+    lv_obj_set_style_text_align(button_matrix_pin, LV_TEXT_ALIGN_AUTO, 0);
     lv_obj_set_style_text_color(button_matrix_pin, lv_color_hex(0x1a1919), 0);
     lv_obj_set_x(button_matrix_pin, 140);
     lv_obj_set_y(button_matrix_pin, 20);
@@ -97,7 +98,7 @@ lv_obj_t * screen_btn_matrix_create(void)
     lv_obj_set_style_text_color(lv_label_0, lv_color_hex3(0x000), 0);
     lv_obj_set_style_text_font(lv_label_0, montserrat_26, 0);
     
-    lv_obj_add_screen_create_event(submit_button, LV_EVENT_CLICKED, screen_biometric_select_create, LV_SCREEN_LOAD_ANIM_MOVE_TOP, 500, 0);
+    lv_obj_add_screen_create_event(submit_button, LV_EVENT_CLICKED, screen_start_create, LV_SCREEN_LOAD_ANIM_MOVE_TOP, 500, 0);
 
     LV_TRACE_OBJ_CREATE("finished");
 
