@@ -108,6 +108,7 @@ void ui_hello_world_init_gen(const char * asset_path);
 #include "screens/screen_fingerprint_scan_gen.h"
 #include "screens/screen_get_pin_gen.h"
 #include "screens/screen_hello_world_gen.h"
+#include "screens/screen_home_gen.h"
 #include "screens/screen_main_gen.h"
 #include "screens/screen_start_gen.h"
 #include "screens/screen_success_gen.h"
